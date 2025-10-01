@@ -1,0 +1,40 @@
+.titre {
+  width: 250px;
+  height: 40px;
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid #2475b0;
+  margin-bottom: 10px;
+}
+
+.liste-interets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 220px;
+  background-color: #3498db;
+  border-radius: 10px;
+  border: 2px solid #2475b0;
+  padding: 15px;
+}
+
+.liste-interets li {
+  background-color: #3498db;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.titre:hover {
+      transform: translateY(-1px); 
+      transform: translateX(-1px)
+      box-shadow: 0 8px 24px rgba(0, 124, 247, 0.16);
+}
