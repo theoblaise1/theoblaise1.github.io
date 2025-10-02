@@ -1,0 +1,48 @@
+.titre {
+  width: 300px;
+  height: 60px;
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid #2475b0;
+  margin-bottom: 10px;
+}
+
+.MesCentresdIntérêts {
+  text-align: center;
+  color: white;
+}
+
+.liste-interets {
+  list-style-type: none;
+  margin: 0;
+  width: 270px;
+  background-color: #3498db;
+  border-radius: 10px;
+  border: 2px solid #2475b0;
+  padding: 15px;
+}
+
+.liste-interets li {
+  background-color: #3498db;
+  margin: 8px 0;
+  border-radius: 6px;
+  color: white;
+  text-align: left;
+}
+
+.Dév {
+  list-style-type: none;
+}
+
+.Electronique {
+  list-style-type: none;
+}
+
+.Jeux {
+  list-style-type: none;
+}
