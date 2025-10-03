@@ -1,3 +1,5 @@
+/*index.html*/ 
+
 .titre {
   width: 300px;
   height: 60px;
@@ -10,6 +12,25 @@
   font-size: 20px;
   border: 2px solid #2475b0;
   margin-bottom: 10px;
+}
+
+.InformationsPersonelles {
+  width: 300px;
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid #2475b0;
+  margin-bottom: 10px;
+}
+
+
+.MesInfosPersos {
+  text-align: center;
+  color: white;
 }
 
 .MesCentresdIntérêts {
@@ -46,3 +67,23 @@
 .Jeux {
   list-style-type: none;
 }
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*Workshop.html*/
+
+img {
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 5px;
+   width: 150px;
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*contact.html*/
+
+.pagecontact {
+  text-align: center;
+  margin: 50%;
+} 
